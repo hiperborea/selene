@@ -518,7 +518,7 @@ margin on the iframe, cause it breaks stuff. */
   width: 80%;
   max-width: 700px;
   /*margin: 4rem auto;*/
-  margin: -5rem auto;
+  margin: 0rem auto;
   padding-bottom: 4rem;
   word-break: break-word;
   hyphens: auto; }
@@ -1099,7 +1099,7 @@ hr {
     -webkit-box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.5);
     box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.5); }
   .post:last-child {
-    margin-bottom: 150px; }
+    /*margin-bottom:150px;*/ }
     .post:last-child:after {
       display: none; }
 
