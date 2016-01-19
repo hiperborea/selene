@@ -1,6 +1,6 @@
 .post{
   max-width: 800px;
-  margin-top: 5rem;
+  /*margin-top: 5rem;*/     // Change
   padding-bottom: 1rem;
   background-color: white;
   border-top: 3px solid $appleGreen;
@@ -12,7 +12,7 @@
     @include box-shadow(3px 5px 15px 0px rgba(50, 50, 50, 0.5));
   }
   &:last-child{
-    margin-bottom:150px;
+    /*margin-bottom:150px;*/    // Change
     &:after{
       display: none;
     }
