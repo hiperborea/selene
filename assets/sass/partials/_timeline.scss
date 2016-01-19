@@ -19,6 +19,7 @@
   margin-left: -3px;
   @include background(linear-gradient($lightGray2, $lightGray, transparent));
   z-index: 0;
+  margin-top: -6rem; // Change
 }
 
 .timeline > li {
@@ -38,12 +39,14 @@
   width: 300px;
   float: left;
   text-align: right;
+  margin-top: -10rem; // Change
 }
 
 .direction-r {
   position: relative;
   width: 300px;
   float: right;
+  margin-top: -10rem;   // Change
 }
 
 .flag-wrapper {
