@@ -1035,7 +1035,8 @@ blockquote {
   box-shadow: 0px 0.5em 3em rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 2;
-  padding-top: 8rem;
+  /*padding-top: 8rem;*/
+  padding-top: 12rem;
   background: url('/images/noisy-texture-200x200-o4-d17-c-fefefe-t0.png'); }
 
 #disqus_thread {
@@ -1311,7 +1312,8 @@ iframe {
   background: -moz-linear-gradient(#cccccc, #dedede, rgba(0, 0, 0, 0));
   background: -webkit-linear-gradient(#cccccc, #dedede, rgba(0, 0, 0, 0));
   background: linear-gradient(#cccccc, #dedede, rgba(0, 0, 0, 0));
-  z-index: 0; }
+  z-index: 0;
+  margin-top: -6rem; }
 
 .timeline > li {
   padding: 1em 0; }
@@ -1327,12 +1329,14 @@ iframe {
   position: relative;
   width: 300px;
   float: left;
-  text-align: right; }
+  text-align: right;
+  margin-top: -10rem; }
 
 .direction-r {
   position: relative;
   width: 300px;
-  float: right; }
+  float: right;
+  margin-top: -10rem; }
 
 .flag-wrapper {
   position: relative;
