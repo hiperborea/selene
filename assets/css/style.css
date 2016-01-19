@@ -1099,7 +1099,7 @@ hr {
     -webkit-box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.5);
     box-shadow: 3px 5px 15px 0px rgba(50, 50, 50, 0.5); }
   .post:last-child {
-    /*margin-bottom:150px;*/ }
+    margin-bottom: 150px; }
     .post:last-child:after {
       display: none; }
 
