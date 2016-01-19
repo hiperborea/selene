@@ -1,7 +1,24 @@
 
-@import "vendor/*";
+@import "vendor/_default.scss";
 
 @import "compass";
 
-@import "modules/*";
-@import "partials/*";
+@import "modules/_colors.scss";
+@import "modules/_typography.scss";
+
+@import "partials/_blockquote.scss";
+@import "partials/_blockquote.scss";
+@import "partials/_body.scss";
+@import "partials/_disqus.scss";
+@import "partials/_divider.scss";
+@import "partials/_header.scss";
+@import "partials/_logo.scss";
+@import "partials/_post.scss";
+@import "partials/_rss.scss";
+@import "partials/_share-post.scss";
+@import "partials/_social-bar.scss";
+@import "partials/_tag-page.scss";
+@import "partials/_tags.scss";
+@import "partials/_timeline.scss";
+@import "partials/_typography.scss";
+
